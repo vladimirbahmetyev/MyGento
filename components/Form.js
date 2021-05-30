@@ -102,7 +102,7 @@ const Form = props => {
           {errors.email && <div className={styles.text_error}>{errors['email']}</div>}
         </label>
         <div className={!values.file ? styles.input_file : styles.input_file_uploaded}>
-          <label className={styles.file_container}>
+          <label className={!values.file ? styles.file_container : styles.file_container_upload}>
             {!values.file ? (
               <Plus className={styles.plus_icon} />
             ) : (
