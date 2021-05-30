@@ -87,6 +87,7 @@
   margin-top: 40px;
   font-size: 14px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -251,6 +252,8 @@
   text-decoration: underline;
   color: #096DD9;
   cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .gender_error{
@@ -314,6 +317,7 @@
   line-height: 38px;
   overflow-y: scroll;
   font-size: 20px;
+  word-break: break-word;
 }
 
 .policy_title {
