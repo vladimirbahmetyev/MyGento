@@ -111,7 +111,7 @@ const Form = props => {
             {!values.file ? 'Загрузить резюме' : values.file.name}
             <input type="file" name="cv" onChange={handleFileUpload} />
           </label>
-          {values.file && <Cross className={styles.file_cross} onClick={resetFile} />}
+          {values.file && <Cross className={styles.file_cross} grey onClick={resetFile} />}
         </div>
       </div>
       <h2 className={styles.sub_title}>
